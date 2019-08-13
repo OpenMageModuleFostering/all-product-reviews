@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<default>
+		<reference name="left" ifconfig="reviewssection/settings/enabled">
+			<block type="reviews/latestsidebar" name="reviews.latestsidebar" template="kamtechreviews/latest-sidebar.phtml" ifconfig="reviewssection/settings/recent_reviews"/>
+        </reference>
+		<reference name="right" ifconfig="reviewssection/settings/enabled">
+			<block type="reviews/latestsidebar" name="reviews.latestsidebar" template="kamtechreviews/latest-sidebar.phtml" unlessconfig="reviewssection/settings/recent_reviews"/>
+        </reference>
+		<reference name="head" ifconfig="reviewssection/settings/enabled">
+			<action method="addCss"><stylesheet>css/kamtechreviews.css</stylesheet></action>
+			<action method="addItem"><type>skin_js</type><name>js/jquery-1.8.3.min.js</name></action>
+			<action method="addItem"><type>skin_js</type><name>js/kamtechreview.js</name></action>
+			<action method="addItem"><type>skin_js</type><name>js/kamtech.tinyscrollbar.min.js</name></action>
+		</reference>
+	</default>
+    <reviews_index_index>
+        <reference name="content" ifconfig="reviewssection/settings/enabled">
+            <block type="reviews/latest" name="reviews.latest" template="kamtechreviews/latest.phtml" />
+        </reference>
+    </reviews_index_index>
+</layout>
