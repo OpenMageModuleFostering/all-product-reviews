@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/All-Product-Reviews",
+    "name": "OpenMageModuleFostering\/All-Product-Reviews",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "All Product Reviews magento extension helps to create Reviews Dashboard for all the products.",
     "authors": [
-    {
-        "name": "Kamtechnology",
-        "email": "magesupport@kamtechco.net"
-    }
-],
+        {
+            "name": "Kamtechnology",
+            "email": "magesupport@kamtechco.net"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
