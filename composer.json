@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/All-Product-Reviews",
+    "name": "openmage-module-fostering\/all-product-reviews",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "All Product Reviews magento extension helps to create Reviews Dashboard for all the products.",
     "authors": [
